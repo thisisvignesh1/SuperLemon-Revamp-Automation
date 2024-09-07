@@ -1,0 +1,71 @@
+{
+	"server": "hub-cloud.browserstack.com",
+	"username": "praveenkumar_gCN3XW",
+	"access_key": "CowywAo6Uyzx25qwisPE",
+	"capabilities": {
+		"project": "Gupshup Smart Menu",
+		"build": "TestNG Parallel",
+		"name": "Automation Test",
+		"browserName": "Chrome",
+		"pCloudy_Username": "gokul.sethu@gupshup.io",
+		"pCloudy_ApiKey": "jwj6v8sbpk3chgcv2mvbqv7t",
+		"pCloudy_DurationInMinutes": "300",
+		"newCommandTimeout": "600",
+		"launchTimeout": "90000",
+		"automationName": "uiautomator2",
+		"pCloudy_WildNet": "false",
+		"pCloudy_EnableVideo": "true",
+		"pCloudy_EnablePerformanceData": "false",
+		"pCloudy_EnableDeviceLogs": "false"
+	},
+   "Ios1":{
+      "deviceName":"iPhone 14 Pro Max",
+      "osVersion":"16",
+      "browserName":"ios",
+   },
+     "Ios2":{
+      "deviceName":"iPhone 14 Pro",
+      "osVersion":"16",
+      "browserName":"ios",
+   },
+   "Android1":{
+      "deviceName":"Samsung Galaxy A52",
+      "osVersion":"11.0",
+      "browserName":"android",
+   },
+    "Android2":{
+      "deviceName":"Google Pixel 7 Pro",
+      "osVersion":"13.0",
+      "browserName":"android",
+   },
+   "Windows1":{
+      "os":"Windows",
+      "osVersion":"11",
+      "browserName":"Firefox",
+      "browserVersion":"latest",
+   },
+    "Windows2":{
+      "os":"Windows",
+      "osVersion":"11",
+      "browserName":"Firefox",
+      "browserVersion":"latest",
+   },
+   "Os-x1":{
+   	  "browserName":"Safari",
+      "os":"OS X",
+      "osVersion":"Monterey",
+      "browserVersion":"15.6",
+   },
+    "Os-x2":{
+   	  "browserName":"Safari",
+      "os":"OS X",
+      "osVersion":"Ventura",
+      "browserVersion":"16.0",
+   },
+	"environments": [
+		{
+			"brand": "Samsung",
+			"platformName": "Android"
+		}
+	]
+}

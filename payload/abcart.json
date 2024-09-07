@@ -1,0 +1,6 @@
+{
+    "baseurl" : "https://qa-be-superlemon.smsgupshup.dev/api/v1/config",
+    "payload" :{        
+            "mark.abandoned.after": "60000"
+    }
+}

@@ -1,0 +1,64 @@
+package locators;
+
+public class MyWhatsAppLocators {
+	/* xpath */ public static final String APPLICATION_FORM_BTN = "//button[@id='applicationForm']";
+	/* xpath */ public static final String SAVE_BTN = "//span[contains(text(),'Save')]";
+	/* xpath */ public static final String WEBSITE_URL = "//input[@id='PolarisTextField4']";
+	/* xpath */ public static final String BUSINESS_ENTITY_NAME = "//input[@id='PolarisTextField5']";
+	/* xpath */ public static final String BusinessVerticalDD = "//select[@id='PolarisSelect2']";
+	/* xpath */ public static final String Locale_DD = "//select[@id='PolarisSelect3']";
+	/* xpath */ public static final String TIMEZONE_DD = "//select[@id='PolarisSelect4']";
+	/* xpath */ public static final String FACEBOOK_BUSINESS_MANAGER_ID_TXTBOX = "//input[@id='PolarisTextField6']";
+	/* xpath */ public static final String AUTOMATED_MESSAGE_TEMPLATE_DD = "//select[@id='PolarisSelect5']";
+	/* xpath */ public static final String DISPLAY_NAME_WA = "//input[@id='PolarisTextField7']";
+	/* xpath */ public static final String COUNTRY_CODE_DD = "//select[@id='PolarisSelect5']";
+	/* xpath */ public static final String PHONE_NO_WA_API = "//input[@id='PolarisTextField8']";
+	/* xpath */ public static final String CONTACT_EMAIL_ADDRESS_TXT = "//input[@id='PolarisTextField9']";
+	/* xpath */ public static final String CONTACT_PHONE_NO_TXT = "//input[@id='PolarisTextField10']";
+	/* xpath */ public static final String ERROR_POPUP_MSG = "//div[contains(@class,'Polaris-Frame-Toast')]";
+	/* xpath */ public static final String TERMS_CHECKBOX = "//span[@class='Polaris-Checkbox__Backdrop']";
+	/* xpath */ public static final String APPLY_FOR_APPROVAL = "//span[contains(text(),'Apply for Approval')]";
+	/* xpath */ public static final String TUTORIAL_VIDEO = "//span[contains(text(),'Tutorial video')]";
+	/* xpath */ public static final String UPLOAD_BTN = "#uploadWhatsappImage";
+	/* xpath */ public static final String ABOUT_TXTAREA = "//span[contains(text(),'Upload Photo')]/following::textarea[1]";
+	/* xpath */ public static final String GERMANLANGUAGE_DROPDOWN = "//option[contains(text(),'GERMAN')]";
+	/* xpath */ public static final String ENGLISHLANGUAGE_DROPDOWN = "//option[contains(text(),'ENGLISH')]";
+	/* xpath */ public static final String SAVESETTING_BTN = "//span[contains(text(),'Save Settings')]";
+
+	/* xpath */ public static final String WHATSAPPAPI_PAGE_TAB = "//span[contains(text(),' Whatsapp')]";
+	/* xpath */ public static final String LANGUAGE_DROPDOWN = "//label[contains(text(),'language')]/following::select[1]";
+	/* xpath */ public static final String UPDATE_LANGUGAE = "//label[contains(text(),'language')]/following::select[1]/following::span[7]";
+	/* xpath */ public static final String EDIT_LANGUAGE = "//div[contains(text(),'Account Profile Details')]/following::span[2]";
+	/* xpath */ public static final String EDIT_ADDRESS = "//div[contains(text(),'Account Profile Details')]/following::span[6]";
+	/* xpath */ public static final String ADDRESSLINE1_INPUT = "//label[contains(text(),'Business Information')]/following::input[1]";
+	/* xpath */ public static final String ADDRESSLINE2_INPUT = "//label[contains(text(),'Business Information')]/following::input[2]";
+	/* xpath */ public static final String STATEINPUT_INPUT = "//label[contains(text(),'Business Information')]/following::input[4]";
+	/* xpath */ public static final String CITY_INPUT = "//label[contains(text(),'Business Information')]/following::input[3]";
+	/* xpath */ public static final String COUNTRY_INPUT = "//label[contains(text(),'Business Information')]/following::input[5]";
+	/* xpath */ public static final String ZIPCODE_INPUT = "//label[contains(text(),'Business Information')]/following::input[6]";
+	/* xpath */ public static final String EMAIL_INPUT = "//label[contains(text(),'Business Information')]/following::input[7]";
+	/* xpath */ public static final String WEBSITEURL_INPUT = "//label[contains(text(),'Business Information')]/following::input[8]";
+	/* xpath */ public static final String SELECTBUSINESS_INPUT = "//label[contains(text(),'Business Information')]/following::select[1]";
+	/* xpath */ public static final String UPDATE_DETAILS = "//label[contains(text(),'Business Information')]/following::span[8]";
+	/* xpath */ public static final String UPLOAD_PHOTO = "//span[contains(text(),'Upload Photo')]";
+	/* xpath */ public static final String MYWHATSAPP_PAGE = "//div[@class='waba']";
+	/* xpath */ public static final String FB_STATUS = "//span[normalize-space()='Unverified']";
+	/* xpath */ public static final String MESSAGE_LIMIT = "//span[normalize-space()='1K/day']";
+	/* xpath */ public static final String QUALITY_RATING = "//span[normalize-space()='Green']";
+	/* xpath */ public static final String MANDATORY_FIELDS = "(//div)[152]/preceding-sibling::div//label[@class='fontColorGrey']";
+
+	public static final String ADDRESSLINE1_VALUE = "22A";
+	public static final String ADDRESSLINE2_VALUE = "Postoffice street";
+	public static final String STATE_VALUE = "Maharastra";
+	public static final String ZIPCODE_VALUE = "400001";
+	public static final String SELECTBUSINESS_VERTICAL_VALUE = "IT";
+	public static final String EMAILID_VALUE = "automation@gupshup.io";
+	public static final String CITY_VALUE = "Mumbai";
+	public static final String COUNTRY_VALUE = "India";
+	public static final String WEBSITE_VALUE = "www.gupshup.io";
+	public static final String LANGUAGE_VALUE = "ENGLISH";
+	public static final String GERMAN_VALUE = "GERMAN";
+	public static final String ABOUT_TXTAREA_VALUE = "Automation QA";
+	public static final String UPLOADFILE_VALUE = "Upload.png";
+	public static final String TUTORIAL_TITLE = "Why WhatsApp business API is important for your business?";
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Super Lemon Automation Regression">
+	<listeners>
+		<listener class-name="utils.Listener" />
+	</listeners>
+	<test name="Verify Home Page in Shopify">
+		<classes>
+			<class name="com.superlemon.RegressionTest">
+				<methods>
+					<include name="verifyEditAndDeleteTags"></include>
+					<!--	<include name="verifyOptionsInConfigurationPage"></include>
+						<include name="verifyTagsTabHasThreeColumns"></include>
+					<include name="VerifyVideoCampaign"></include>
+					<include name="VerifyDocsCampaign"></include>
+					<include name="VerifyErrorDocsCampaign"></include>
+					<include name="VerifyCountryCodeOfSpinTheWheel"></include>
+					<include name="VerifyOptinviaChatwidgetEnable"></include>
+					<include name="VerifyOptinviaChatwidgetDisable"></include>
+					<include name="VerifySelectdesignforOptinviachatwidget"></include>
+					<include name="VerifyColourofOptinviachatwidget"></include> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

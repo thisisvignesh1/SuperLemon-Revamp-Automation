@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Super Lemon Automation Sanity">
+	<listeners>
+		<listener class-name="utils.Listener" />
+	</listeners>
+	<test name="Verify Home Page1">
+	<parameter name="deviceIndex" value="1" />
+	<groups>
+            <run>
+              <include name = "group1"></include>
+            </run>
+        </groups>
+		<classes>
+			<class name="com.superlemon.SanityTest">
+			</class>
+		</classes>
+	</test>
+	<test name="Verify Home Page2">
+	<parameter name="deviceIndex" value="2" />
+	<groups>
+            <run>
+              <include name = "group2"></include>
+            </run>
+        </groups>
+		<classes>
+			<class name="com.superlemon.SanityTest">
+			</class>
+		</classes>
+	</test>
+</suite>

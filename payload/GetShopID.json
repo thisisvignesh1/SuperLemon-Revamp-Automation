@@ -1,0 +1,4 @@
+{
+     "baseurl" : "https://qa-be-superlemon.smsgupshup.dev/api/v1/account/user",
+     "payload" :{}
+}
